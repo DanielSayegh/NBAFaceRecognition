@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA All-Star Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dropzone.min.css">
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light justify-content-center">
+        <a class="navbar-brand" href="#">NBA All-Star Classifier</a>
+    </nav>
+    <div class="teamLogo">
+        <h1>Team Lebron</h1>
+        
+        </div>
+    <br>
+    <div class="container">
+        <div class="row">
+    <div class="col card-wrapper" data-player="luka_doncic">
+        <div class="card border-0">
+            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                <img class="w-100 h-100" src="./images/luka.jpeg" alt="Card image cap">
+            </div>
+            <div class="card-body text-center mt-4">
+                <h4 class="text-uppercase card-title">Luca Dončić</h4>
+                </p>
+            </div>
+        </div>
+    </div>     
+    <div class="col card-wrapper" data-player="lebron_james">
+        <div class="card border-0">
+            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                <img class="w-100 h-100" src="./images/lebron.jpeg" alt="Card image cap">
+            </div>
+            <div class="card-body text-center mt-4">
+                <h4 class="text-uppercase card-title">Lebron James</h4>
+                </p>
+            </div>
+        </div>
+    </div>      
+    <div class="col card-wrapper" data-player="nikola_jokic">
+        <div class="card border-0">
+            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                <img class="w-100 h-100" src="./images/nikola.jpeg" alt="Card image cap">
+            </div>
+            <div class="card-body text-center mt-4">
+                <h4 class="text-uppercase card-title">Nikola Jokić</h4>
+                </p>
+            </div>
+        </div>
+    </div>        
+    <div class="col card-wrapper" data-player="giannis_antetokounmpo">
+        <div class="card border-0">
+            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                <img class="w-100 h-100" src="./images/giannis.jpeg" alt="Card image cap">
+            </div>
+            <div class="card-body text-center mt-4">
+                <h4 class="text-uppercase card-title">Giannis Antetokounmpo</h4>
+                </p>
+            </div>
+        </div>
+    </div>            
+    <div class="col card-wrapper" data-player="stephen_curry">
+        <div class="card border-0">
+            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                <img class="w-100 h-100" src="./images/stephen.jpeg" alt="Card image cap">
+            </div>
+            <div class="card-body text-center mt-4">
+                <h4 class="text-uppercase card-title">Stephen Curry</h4>
+                </p>
+            </div>
+        </div>
+    </div>                            
+</div>
+</div>   
+<div class="teamLogo">
+    <h1>Team Durant</h1>
+    </div>
+                <div class="container">
+                <div class="row">
+                        <div class="col card-wrapper" data-player="kyrie_irving">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/irving.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h4 class="text-uppercase card-title">Kyrie Irving</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>            
+            <div class="col card-wrapper" data-player="zion_williamson">
+                    <div class="card border-0">
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/zion.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-4">
+                            <h4 class="text-uppercase card-title">Zion Williamson</h4>
+                            </p>
+                        </div>
+                    </div>
+            </div>            
+            <div class="col card-wrapper" data-player="jayson_tatum">
+                    <div class="card border-0">
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/jayson.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-4">
+                            <h4 class="text-uppercase card-title">Jayson Tatum</h4>
+                            </p>
+                        </div>
+                    </div>
+            </div>          
+
+            <div class="col card-wrapper" data-player="bradley_beal">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/bradley.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h4 class="text-uppercase card-title">Bradley Beal</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>      
+
+            <div class="col card-wrapper" data-player="kawhi_leonard">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/kawhi.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h4 class="text-uppercase card-title">Kawhi Leonard</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <form action="/file-upload" class="dropzone" id="dropzone">
+                            <div class="dz-message needsclick">
+                                <img src="./images/upload.png" width="50vw" height="50vw"><br>
+                                <span class="note needsclick">Drop files here or click to upload</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3 mx-auto">
+                        <button id="submitBtn" type="button" class="btn btn-success">Classify</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-8 error" id="error" >
+                <p>Can't classify image. Classifier was not able to detect face and two eyes properly</p>    
+            </div>
+
+            <div class="col-sm-4" id="resultHolder">
+            </div>
+           
+            <div class="col-sm-4" id="divClassTable">
+                <table id="classTable">
+                        <tr>
+                            <th>Player</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Luka Dončić</td>
+                            <td id="score_luka_doncic"></td>
+                        </tr>
+                        <tr>
+                            <td>Lebron James</td>
+                            <td id="score_lebron_james"></td>
+                        </tr>
+                        <tr>
+                            <td>Nikola Jokić</td>
+                            <td id="score_nikola_jokic"></td>
+                        </tr>
+                        <tr>
+                            <td>Giannis Antetokounmpo</td>
+                            <td id="score_giannis_antetokounmpo"></td>
+                        </tr>
+                        <tr>
+                            <td>Stephen Curry</td>
+                            <td id="score_stephen_curry"></td>
+                        </tr>
+                        <tr>
+                            <td>Kyrie Irving</td>
+                            <td id="score_kyrie_irving"></td>
+                        </tr>
+                        <tr>
+                            <td>Zion Williamson</td>
+                            <td id="score_zion_williamson"></td>
+                        </tr>
+                        <tr>
+                            <td>Jayson Tatum</td>
+                            <td id="score_jayson_tatum"></td>
+                        </tr>
+                        <tr>
+                            <td>Bradley Beal</td>
+                            <td id="score_bradley_beal"></td>
+                        </tr>
+                        <tr>
+                            <td>Kawhi Leonard</td>
+                            <td id="score_kawhi_leonard"></td>
+                        </tr>
+                </table>
+            </div>
+            <br>
+            
+        </div>
+        <br>
+<br>
+<br>
+        <div class=stats>Current Player Statistics</div>
+        <pre id="titleHolder"></pre>
+        <pre id="statHolder"></pre>
+        <pre class=noStats id="noStats"></pre>
+    
+
+    </div>
+    <script>
+    getStats();
+    async function getStats(){
+        const response = await fetch('NBA Player Stats.csv');
+        const stats = await response.text();
+       // console.log(stats);
+    
+        const rows=stats.split('\n').slice(1);
+        rows.forEach(elt => {
+            const row = elt.split(',');
+           const fullname=row[1];
+           //console.log(fullname);
+        });
+        }
+        
+</script>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./dropzone.min.js"></script>
+<script src="./app.js"></script>
+</html>
