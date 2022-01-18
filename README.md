@@ -7,7 +7,7 @@ Within the model folder in the repository run:
 
 The dataset folder contains all the images the program will run through as well as the cropped folder containing the cropped images of all images with a clear face and two eyes that will be created after the program is run.
 
-The server folder contains a simple python flask server which is necessary to run for the backend classification to work within the UI. The folder also contains "artificats" which is the class dictionary.json and trained model
+The server folder contains a simple python flask server which is necessary to run for the backend classification to work within the UI. The folder also contains "artifacts" which is the class dictionary.json and trained model
 
 Within the server folder in the repository run:
 `pip install -r requirements.txt`
